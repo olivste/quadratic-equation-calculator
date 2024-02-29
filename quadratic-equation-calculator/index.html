@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora 2° Grau</title>
+  <link rel="stylesheet" href="assets\css\style.css">
+  <script src="assets\js\index.js"></script>
+</head>
+
+<body>
+  <section class="container">
+    <h1>Calculadora de equação do 2° grau</h1>
+    <form onsubmit="return false;">
+      <label for="input-a">A:</label>
+      <input type="text" id="input-a" />
+      <label for="input-b">B:</label>
+      <input type="text" id="input-b" />
+      <label for="input-c">C:</label>
+      <input type="text" id="input-c" />
+      <div class="botoes">
+        <button class="calcular" id="enviar" onclick="calcularRaiz()">Calcular</button>
+        <button class="limpar" id="limpar" onclick="limparCampos()">Limpar</button>
+      </div>
+    </form>
+    <p id="resultado"></p>
+  </section>
+</body>
+
+</html>
