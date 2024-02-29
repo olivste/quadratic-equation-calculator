@@ -14,7 +14,7 @@ This project is a simple quadratic equation calculator implemented using HTML, C
 
 * `index.html`: The main HTML file containing the structure of the calculator.
 * `style.css`: The CSS file defining the styling of the calculator.
-* `index.js`: The JavaScript file containing the logic for calculating the roots and handling user interactions.
+* `main.js`: The JavaScript file containing the logic for calculating the roots and handling user interactions.
 
 **Instructions:**
 
@@ -42,7 +42,7 @@ Este projeto é uma calculadora simples de equação do segundo grau implementad
 
 * `index.html`: O arquivo HTML principal contendo a estrutura da calculadora.
 * `style.css`: O arquivo CSS definindo o estilo da calculadora.
-* `index.js`: O arquivo JavaScript contendo a lógica para calcular as raízes e lidar com as interações do usuário.
+* `main.js`: O arquivo JavaScript contendo a lógica para calcular as raízes e lidar com as interações do usuário.
 
 **Instruções:**
 
